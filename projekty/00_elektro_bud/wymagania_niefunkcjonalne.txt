@@ -1,0 +1,29 @@
+Wymagania niefunkcjonalne ElektroBud
+
+NFR-01 - Wydajność
+Wyszukiwanie produktu i obsługa kodu EAN trwa nie dłużej niż 2 sekundy w typowych warunkach.
+
+NFR-02 - Hasła
+Hasła są zapisane w bazie jako haslo, a nie zwykłym tekstem.
+
+NFR-03 - Własne konta
+Każdy pracownik ma swoje konto. Dzięki temu wiadomo, kto wykonał operację, i da się zrobić raporty. Bez zalogowania nie da się korzystać z systemu.
+
+NFR-04 - Kontrola dostępu
+Zakres funkcji zależy od roli. Magazynier nie widzi historii, raportów ani kont użytkowników.
+
+NFR-05 - Spójność danych
+Stan magazynowy nigdy nie jest ujemny, a zmiana stanu i zapis w historii dzieją się razem.
+
+NFR-06 - Dostępność
+System działa w godzinach pracy hurtowni, minimum 99% czasu.
+
+NFR-07 - Dostęp spoza magazynu
+Kierownik może korzystać z systemu przez przeglądarkę, także poza magazynem.
+
+NFR-08 - Prosty interfejs
+Interfejs ma być prosty i czytelny (wygląd nie jest ważny, ważne są jasne opisy). Przyjęcie albo wydanie towaru ma się dać zrobić w maksymalnie 3 krokach.
+
+NFR-09 - Historia
+Wpisów w historii nie można edytować ani usuwać.
+

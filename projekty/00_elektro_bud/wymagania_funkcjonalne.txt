@@ -1,0 +1,46 @@
+Wymagania funkcjonalne Elektro Bud
+
+FR-01 - Logowanie
+System pozwala zalogować się na własne konto (login i hasło). Opcjonalnie można się logować kartą RFID.
+
+FR-02 - Wyszukiwanie produktu
+Można znaleźć produkt po kodzie EAN albo po nazwie. Wystarczy znać jedno z nich.
+
+FR-03 - Lokalizacja produktu
+System pokazuje, gdzie leży produkt: sektor, regał, półka. Lokalizacja to 6-znakowy kod, np. Qw1234 (format można jeszcze zmienić).
+
+FR-04 - Przyjęcie towaru
+Magazynier rejestruje przyjęcie (produkt i ilość), a stan magazynowy rośnie.
+
+FR-05 - Wydanie towaru
+Magazynier rejestruje wydanie (produkt i ilość), a stan magazynowy maleje.
+
+FR-06 - Kontrola stanu przy wydaniu
+System nie pozwala wydać więcej sztuk, niż jest na magazynie.
+
+FR-07 - Równoczesne operacje
+Gdy dwie osoby robią operację na tym samym produkcie naraz, stan ma zostać poprawny (nie może wyjść poniżej zera).
+
+FR-08 - Historia operacji
+System zapisuje każdą operację: kto, jaki produkt, jaka operacja, ile sztuk i kiedy.
+
+FR-09 - Przeglądanie historii
+Kierownik może przeglądać historię operacji.
+
+FR-10 - Przeglądanie stanów
+Kierownik może zobaczyć aktualne stany wszystkich produktów.
+
+FR-11 - Zarządzanie produktami
+Kierownik dodaje, edytuje i usuwa produkty (EAN, nazwa, kategoria, lokalizacja).
+
+FR-12 - Raporty
+Kierownik może generować raporty o magazynie, także takie, które potrzebne są księgowości. Zakres raportów trzeba jeszcze ustalić z klientem.
+
+FR-13 - Zarządzanie kontami
+Administrator zakłada nowe konta oraz zmienia i usuwa istniejące.
+
+FR-14 - Uprawnienia
+Administrator nadaje użytkownikom role (magazynier, kierownik, administrator).
+
+
+

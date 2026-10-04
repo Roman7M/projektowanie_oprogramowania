@@ -1,0 +1,14 @@
+Aktorzy Elektro Bud
+
+Magazynier
+Rola: Obsługuje magazyn na co dzień.
+Działania: Loguje się, wyszukuje produkty, sprawdza lokalizację, przyjmuje i wydaje towar.
+
+Kierownik magazynu
+Rola: Nadzoruje magazyn.
+Działania: Loguje się, wyszukuje produkty, sprawdza stany, zarządza produktami, przegląda historię, robi raporty.
+
+Administrator
+Rola: Zajmuje się użytkownikami.
+Działania: Loguje się, zarządza kontami, nadaje uprawnienia, resetuje hasła.
+
